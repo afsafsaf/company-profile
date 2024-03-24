@@ -113,7 +113,7 @@ const Testimonial = () => {
                   </div>
                   <div className="chat-bubble">
                     <Image
-                      src="/mem.webp"
+                      src="/gif.webp"
                       alt="meme"
                       width={80}
                       height={80}
