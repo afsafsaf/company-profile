@@ -27,7 +27,7 @@ const Jumbotron = () => {
             </h6>
             <div className="mx-auto ">
               <video autoPlay loop muted className="w-72 h-72 p-3">
-                <source src="/flying.mp4" />
+                <source src="/fly.mp4" />
               </video>
             </div>
 
