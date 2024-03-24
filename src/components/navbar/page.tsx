@@ -1,5 +1,5 @@
 "use client";
-import Home from "@/app/home/page";
+
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";

@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Roboto, Roboto_Flex } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/navbar/page";
-import Home from "./home/page";
-import Services from "./services/page";
+
 import Footer from "./footer/page";
 
 const inter = Inter({ subsets: ["latin"] });
