@@ -20,14 +20,7 @@ export default async function Services() {
           HERE OUR BEST CUSTOM FIGURE CHARACTERS
         </h3>
       </div>
-      <div className="header mx-auto text-center flex justify-center my-5">
-        <input
-          type="text"
-          placeholder="Search your characters..."
-          className="input input-bordered w-full max-w-xs"
-          alt="logo"
-        />
-      </div>
+
       {/* CONTENT */}
       <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mx-auto  ">
         {characters.results.map((character) => (

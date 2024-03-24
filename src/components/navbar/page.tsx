@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
 
@@ -21,30 +22,20 @@ const Navbar = () => {
         <div className=" hidden lg:flex mx-auto md:col-span-3  ">
           <ul className="menu menu-horizontal px-1 m-10 text-slate-400 font-bold gap-8 bg-base-200 rounded-box">
             <li>
-              <a onClick={() => router.push("/home")}>HOME</a>
+              <Link href={"/home"}>HOME</Link>
             </li>
             <li>
-              <a onClick={() => router.push("/about")}>ABOUT US</a>
+              <Link href={"/about"}>ABOUT US</Link>
             </li>
             {/* <li> */}
             {/* <details> */}
 
             <li>
-              <a onClick={() => router.push("/services")}>SERVICES</a>
+              <Link href={"/services"}>SERVICES</Link>
             </li>
 
-            {/* <ul className="p-2 text-white">
-                  <li>
-                    <a>Our Product</a>
-                  </li>
-                  <li>
-                    <a>Hot Deals</a>
-                  </li>
-                </ul> */}
-            {/* </details> */}
-            {/* </li> */}
             <li>
-              <a onClick={() => router.push("/team")}>TEAMS</a>
+              <Link href={"/team"}>TEAMS</Link>
             </li>
           </ul>
         </div>
@@ -63,16 +54,16 @@ const Navbar = () => {
               className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 "
             >
               <li>
-                <a onClick={() => router.push("/home")}>HOME</a>
+                <Link href={"/home"}>HOME</Link>
               </li>
               <li>
-                <a onClick={() => router.push("/about")}>ABOUT US</a>
+                <Link href={"/about"}>ABOUT US</Link>
               </li>
               <li>
-                <a onClick={() => router.push("/services")}>SERVICES</a>
+                <Link href={"/services"}>SERVICES</Link>
               </li>
               <li>
-                <a onClick={() => router.push("/team")}>TEAMS</a>
+                <Link href={"/team"}>TEAMS</Link>
               </li>
             </ul>
           </div>
