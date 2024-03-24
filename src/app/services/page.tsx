@@ -22,7 +22,7 @@ export default async function Services() {
       </div>
 
       {/* CONTENT */}
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mx-auto  ">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 mx-auto  ">
         {characters.results.map((character) => (
           <Card key={character.id} character={character} />
         ))}
