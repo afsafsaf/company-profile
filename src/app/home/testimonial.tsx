@@ -28,14 +28,7 @@ const Testimonial = () => {
               <div>
                 <div className="chat chat-start">
                   <div className="chat-image avatar">
-                    <div className="w-10 rounded-full">
-                      <Image
-                        src="/avatar.jpg"
-                        alt="avatar"
-                        height={30}
-                        width={30}
-                      ></Image>
-                    </div>
+                    <div className="w-10 rounded-full"></div>
                   </div>
                   <div className="chat-header">
                     Bimbo
@@ -50,14 +43,7 @@ const Testimonial = () => {
                 </div>
                 <div className="chat chat-end">
                   <div className="chat-image avatar">
-                    <div className="w-10 rounded-full">
-                      <Image
-                        src="/avatar.jpg"
-                        alt="avatar"
-                        height={30}
-                        width={30}
-                      ></Image>
-                    </div>
+                    <div className="w-10 rounded-full"></div>
                   </div>
                   <div className="chat-header">
                     filza
@@ -71,14 +57,7 @@ const Testimonial = () => {
                 </div>
                 <div className="chat chat-start">
                   <div className="chat-image avatar">
-                    <div className="w-10 rounded-full">
-                      <Image
-                        src="/avatar.jpg"
-                        alt="avatar"
-                        height={30}
-                        width={30}
-                      ></Image>
-                    </div>
+                    <div className="w-10 rounded-full"></div>
                   </div>
                   <div className="chat-header">
                     Muksal
@@ -89,14 +68,7 @@ const Testimonial = () => {
                 </div>
                 <div className="chat chat-start">
                   <div className="chat-image avatar">
-                    <div className="w-10 rounded-full">
-                      <Image
-                        src="/avatar.jpg"
-                        alt="avatar"
-                        height={30}
-                        width={30}
-                      ></Image>
-                    </div>
+                    <div className="w-10 rounded-full"></div>
                   </div>
                   <div className="chat-header">
                     Mamang Reza
@@ -108,14 +80,7 @@ const Testimonial = () => {
 
                 <div className="chat chat-end">
                   <div className="chat-image avatar">
-                    <div className="w-10 rounded-full">
-                      <Image
-                        src="/avatar.jpg"
-                        alt="avatar"
-                        height={30}
-                        width={30}
-                      ></Image>
-                    </div>
+                    <div className="w-10 rounded-full"></div>
                   </div>
                   <div className="chat-header">
                     Aldo
