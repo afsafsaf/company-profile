@@ -10,15 +10,15 @@ const Navbar = () => {
   return (
     <>
       <div className="md:grid md:grid-cols-5  bg-neutral-700 bg-opacity-90 border-b-2 h-32">
-        <button onClick={() => router.push("/home")} className="text-xl p-5 ">
+        <Link href={"/home"} className="text-xl p-5 ">
           <Image
             src="/marvl.png"
             alt="mcu_profile"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
             className=" "
           ></Image>
-        </button>
+        </Link>
         <div className=" hidden lg:flex mx-auto md:col-span-3  ">
           <ul className="menu menu-horizontal px-1 m-10 text-slate-400 font-bold gap-8 bg-base-200 rounded-box">
             <li>
