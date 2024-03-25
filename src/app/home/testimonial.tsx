@@ -21,7 +21,7 @@ const Testimonial = () => {
               height={30}
               className="rounded-full"
             ></Image>
-            <p className="ml-1">CONSOLE.LOG("JCWD")</p>
+            <p className="ml-1">CONSOLE.LOG ("JCWD")</p>
           </div>
           <div className="flex justify-center px-4 py-16 bg-base-200">
             <div className="text-start">
@@ -37,14 +37,14 @@ const Testimonial = () => {
                   </div>
                   <div className="chat-header">
                     Bimbo
-                    <time className="text-xs opacity-50">12:45</time>
+                    <time className="text-xs"> 12:45 </time>
                   </div>
                   <div className="chat-bubble">
                     {" "}
                     Eh guys tau gak PT. Marvel Company Unitoys? keren banget loh
                     detail figurenya dan bisa custom design juga
                   </div>
-                  <div className="chat-footer opacity-50">Delivered</div>
+                  <div className="chat-footer">Delivered</div>
                 </div>
                 <div className="chat chat-end">
                   <div className="chat-image avatar">
@@ -57,13 +57,13 @@ const Testimonial = () => {
                   </div>
                   <div className="chat-header">
                     filza
-                    <time className="text-xs opacity-50">12:46</time>
+                    <time className="text-xs "> 12:46</time>
                   </div>
                   <div className="chat-bubble">
                     Oh iya, figure" marvel kan? sumpah aku member loh udah 2
                     tahun. emang keren sih
                   </div>
-                  <div className="chat-footer opacity-50">Seen at 12:46</div>
+                  <div className="chat-footer ">Seen at 12:46</div>
                 </div>
                 <div className="chat chat-start">
                   <div className="chat-image avatar">
@@ -76,10 +76,10 @@ const Testimonial = () => {
                   </div>
                   <div className="chat-header">
                     Muksal
-                    <time className="text-xs opacity-50">16.44</time>
+                    <time className="text-xs "> 16.44</time>
                   </div>
                   <div className="chat-bubble"> Penipu kok ditipu.. Heleh</div>
-                  <div className="chat-footer opacity-50">Delivered</div>
+                  <div className="chat-footer ">Delivered</div>
                 </div>
                 <div className="chat chat-start">
                   <div className="chat-image avatar">
@@ -92,10 +92,10 @@ const Testimonial = () => {
                   </div>
                   <div className="chat-header">
                     Mamang Reza
-                    <time className="text-xs opacity-50">20.20</time>
+                    <time className="text-xs "> 20.20</time>
                   </div>
                   <div className="chat-bubble"> info kos mamang sadam</div>
-                  <div className="chat-footer opacity-50">Delivered</div>
+                  <div className="chat-footer ">Delivered</div>
                 </div>
 
                 <div className="chat chat-end">
@@ -109,7 +109,7 @@ const Testimonial = () => {
                   </div>
                   <div className="chat-header">
                     Aldo
-                    <time className="text-xs opacity-50">21:46</time>
+                    <time className="text-xs "> 21:46</time>
                   </div>
                   <div className="chat-bubble">
                     <Image
@@ -119,7 +119,7 @@ const Testimonial = () => {
                       height={80}
                     ></Image>
                   </div>
-                  <div className="chat-footer opacity-50">Seen at 12:46</div>
+                  <div className="chat-footer ">Seen at 12:46</div>
                 </div>
               </div>
             </div>

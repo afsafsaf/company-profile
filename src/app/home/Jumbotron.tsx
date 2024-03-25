@@ -15,9 +15,6 @@ const Jumbotron = () => {
             in the awe-inspiring world of legendary superheroes, meticulously
             crafted to perfection and brought to life in stunning detail.
           </h3>
-          <button className="bg-orange-600 text-gray-50 p-1 rounded ">
-            Learn More
-          </button>
         </div>
 
         <div className="container rounded-xl row-span-2 p-1 mb-4 md:mt-0 mt-5">
