@@ -7,9 +7,11 @@ import Testimonial from "./testimonial";
 const Homes = () => {
   return (
     <>
-      <Jumbotron />
-      <Profile />
-      <Testimonial />
+      <div className="container">
+        <Jumbotron />
+        <Profile />
+        <Testimonial />
+      </div>
     </>
   );
 };

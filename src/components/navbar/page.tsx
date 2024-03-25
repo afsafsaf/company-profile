@@ -2,14 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+
 import React from "react";
 
 const Navbar = () => {
-  const router = useRouter();
   return (
     <>
-      <div className="md:grid md:grid-cols-5  bg-neutral-700 bg-opacity-90 border-b-2 h-32">
+      <div className="md:grid md:grid-cols-5  bg-neutral-700  border-b-2 h-32">
         <Link href={"/home"} className="text-xl p-5 ">
           <Image
             src="/marvl.png"
