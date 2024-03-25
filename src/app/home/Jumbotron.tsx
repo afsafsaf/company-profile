@@ -24,8 +24,8 @@ const Jumbotron = () => {
               <Marquee direction="right">New design is available</Marquee>
             </h6>
             <div className="mx-auto ">
-              <video autoPlay loop muted className="w-72 h-72 p-3">
-                <source src="/fly.mp4" />
+              <video autoPlay loop muted className="w-72 h-72 p-3 ">
+                <source src="/fly.mp4" className="rounded-xl" />
               </video>
             </div>
 
