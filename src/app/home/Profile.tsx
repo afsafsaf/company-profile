@@ -3,7 +3,7 @@ import React from "react";
 const Profile = () => {
   return (
     <>
-      <div className="bg-red-950 bg-opacity-90 p-5 text-center m-5 rounded-xl  backdrop-blur-sm">
+      <div className="bg-red-950 bg-opacity-90 p-5 text-center m-5 rounded-xl backdrop-blur-sm mx-auto">
         <h1 className="text-center text-white text-2xl p-5 font-semibold">
           "WE'RE MORE THAN JUST COLLECTORS, WE'RE STORYTELLERS"
         </h1>

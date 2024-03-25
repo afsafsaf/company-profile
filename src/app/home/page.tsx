@@ -7,7 +7,7 @@ import Testimonial from "./testimonial";
 const Homes = () => {
   return (
     <>
-      <div className="container">
+      <div className="container mx-auto">
         <Jumbotron />
         <Profile />
         <Testimonial />

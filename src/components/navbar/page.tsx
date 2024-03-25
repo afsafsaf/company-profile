@@ -8,7 +8,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="md:grid md:grid-cols-5  bg-neutral-700  border-b-2 h-32">
+      <div className="md:grid md:grid-cols-5  bg-neutral-700 bg-opacity-90 border-b-2 h-32">
         <Link href={"/home"} className="text-xl p-5 ">
           <Image
             src="/marvl.png"
@@ -19,7 +19,7 @@ const Navbar = () => {
           ></Image>
         </Link>
         <div className=" hidden lg:flex mx-auto md:col-span-3  ">
-          <ul className="menu menu-horizontal px-1 m-10 text-slate-400 font-bold gap-8 bg-base-200 rounded-box">
+          <ul className="menu menu-horizontal px-1 m-10 text-slate-100 font-bold gap-8 bg-base-200 rounded-box">
             <li>
               <Link href={"/home"}>HOME</Link>
             </li>
