@@ -19,7 +19,7 @@ const Navbar = () => {
           ></Image>
         </Link>
         <div className=" hidden lg:flex mx-auto md:col-span-3  ">
-          <ul className="menu menu-horizontal px-1 m-10 text-slate-600 font-bold gap-8 bg-base-200 rounded-box">
+          <ul className="menu menu-horizontal px-1 m-10 text-slate- font-bold gap-8 bg-base-200 rounded-box">
             <li>
               <Link href={"/home"}>HOME</Link>
             </li>
